@@ -8,6 +8,15 @@ func main() {
 	fmt.Scan(&score)
 	if score > 680 {
 		fmt.Println("恭喜！清华北大在等你哦！！流弊！")
+		if score < 700 {
+			fmt.Printf("%d可以去学汽修啦！\n", score)
+		} else if score < 720 {
+			fmt.Printf("%d可以去学洗剪吹啦啦！\n", score)
+		} else if score < 740 {
+			fmt.Printf("%d可以去学挖掘机啦！\n", score)
+		} else {
+			fmt.Printf("%d可以去学厨师啦！\n", score)
+		}
 	} else if score < 200 {
 		fmt.Printf("%d太低了！！蓝翔可以吗？\n", score)
 	} else if score > 200 && score < 500 {
