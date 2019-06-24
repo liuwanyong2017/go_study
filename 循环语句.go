@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
 	//初始化条件，判断条件，变化条件
@@ -54,5 +57,33 @@ func main() {
 			}
 		}
 	}
-	fmt.Printf("count=%d,count1=%d", count, count1)
+	fmt.Printf("count=%d,count1=%d\n", count, count1)
+	i := 0
+	for { //死循环，for后面没有任何的条件就是true
+		i++
+		time.Sleep(time.Second) //延时
+		if i == 3 {
+			continue //跳过这次，只能在for循环中使用！
+		}
+		fmt.Println("i=", i)
+		for j := 0; j <= 3; j++ {
+			if i == 4 {
+				fmt.Println("j is break!")
+				break
+			}
+			time.Sleep(time.Second)
+			fmt.Println("j is not break!")
+		}
+		if i == 5 {
+			fmt.Println("break!", i)
+			break //终止最近的内循环,嵌套的时候注意啦
+		}
+		//goto跳转！！
+		fmt.Println("不跳")
+		goto end
+		fmt.Println("要被跳啦！")
+	end:
+		fmt.Println("跳过来啦，老弟！")
+		goto end //再跳回去，死循环！
+	}
 }
