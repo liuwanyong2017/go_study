@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7523a84-0f51-4a77-b2c0-871cbf339904" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b7523a84-0f51-4a77-b2c0-871cbf339904" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/函数.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="100">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -130,8 +128,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="835" />
-    <option name="y" value="182" />
+    <option name="x" value="846" />
+    <option name="y" value="157" />
     <option name="width" value="1121" />
     <option name="height" value="911" />
   </component>
@@ -311,7 +309,8 @@
     <MESSAGE value="for 初始化不一样，也是块级的i，有简单的写法，range 写法，把data属性初始化range到源数据那里，默认返回下标和单个子节点" />
     <MESSAGE value="for 嵌套使用，尽量能不嵌套就不嵌套，百钱买百鸡的问题" />
     <MESSAGE value="for 控制，break只是适合立即终止本次循环体，小心嵌套，只会终止嵌套内的那个。continue跳过这次循环执行，只能用于for。goto修饰词,可以跳代码！流弊的！" />
-    <option name="LAST_COMMIT_MESSAGE" value="for 控制，break只是适合立即终止本次循环体，小心嵌套，只会终止嵌套内的那个。continue跳过这次循环执行，只能用于for。goto修饰词,可以跳代码！流弊的！" />
+    <MESSAGE value="函数不定参，放最后，参数都要有类型声明，for循环，len()方法获取不定参下标。for循环里range形式的用法注意不同于原始格式的分号" />
+    <option name="LAST_COMMIT_MESSAGE" value="函数不定参，放最后，参数都要有类型声明，for循环，len()方法获取不定参下标。for循环里range形式的用法注意不同于原始格式的分号" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.ignore" />
@@ -449,8 +448,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/函数.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="100">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
         </state>
       </provider>
     </entry>
