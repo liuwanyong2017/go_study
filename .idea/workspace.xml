@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b7523a84-0f51-4a77-b2c0-871cbf339904" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/循环语句.go" beforeDir="false" afterPath="$PROJECT_DIR$/循环语句.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/循环语句.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state relative-caret-position="173">
+              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -117,8 +118,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="867" />
-    <option name="y" value="149" />
+    <option name="x" value="664" />
+    <option name="y" value="165" />
     <option name="width" value="1121" />
     <option name="height" value="911" />
   </component>
@@ -247,7 +248,7 @@
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="867" y="149" width="1121" height="911" extended-state="0" />
+    <frame x="1023" y="171" width="1121" height="911" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17270195" />
@@ -256,7 +257,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295964" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26276463" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39975095" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -285,7 +286,8 @@
     <MESSAGE value="if else 的使用，else后面不能跟着条件，if可以。else的好处就是判断的执行就是一次，如果不用else，而是多个if，就要多次判断" />
     <MESSAGE value="嵌套 他、判断的次级分化，逻辑细化" />
     <MESSAGE value="switch,throughAll 与 break ，默认值， 多个值放一起判断，区间判断" />
-    <option name="LAST_COMMIT_MESSAGE" value="switch,throughAll 与 break ，默认值， 多个值放一起判断，区间判断" />
+    <MESSAGE value="for 初始化不一样，也是块级的i，有简单的写法，range 写法，把data属性初始化range到源数据那里，默认返回下标和单个子节点" />
+    <option name="LAST_COMMIT_MESSAGE" value="for 初始化不一样，也是块级的i，有简单的写法，range 写法，把data属性初始化range到源数据那里，默认返回下标和单个子节点" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.ignore" />
@@ -406,8 +408,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/循环语句.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        <state relative-caret-position="173">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
         </state>
       </provider>
     </entry>
