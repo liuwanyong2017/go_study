@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7523a84-0f51-4a77-b2c0-871cbf339904" name="Default Changelist" comment="if else 的使用，else后面不能跟着条件，if可以。else的好处就是判断的执行就是一次，如果不用else，而是多个if，就要多次判断">
+    <list default="true" id="b7523a84-0f51-4a77-b2c0-871cbf339904" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/流程控制.选择结构.go" beforeDir="false" afterPath="$PROJECT_DIR$/流程控制.选择结构.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,17 +36,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/字符串.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
+            <state relative-caret-position="945">
               <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/流程控制.选择结构.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            <state relative-caret-position="428">
+              <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/循环语句.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -104,12 +112,13 @@
         <option value="$PROJECT_DIR$/输入.go" />
         <option value="$PROJECT_DIR$/运算符.go" />
         <option value="$PROJECT_DIR$/流程控制.选择结构.go" />
+        <option value="$PROJECT_DIR$/循环语句.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="779" />
-    <option name="y" value="203" />
+    <option name="x" value="867" />
+    <option name="y" value="149" />
     <option name="width" value="1121" />
     <option name="height" value="911" />
   </component>
@@ -156,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build 流程控制.选择结构.go">
+  <component name="RunManager" selected="Go Build.go build 循环语句.go">
     <configuration name="go build 流程控制.选择结构.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -171,6 +180,15 @@
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/类型转换.go" />
+      <package value="awesomeProject" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 循环语句.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/循环语句.go" />
       <package value="awesomeProject" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -222,17 +240,17 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 循环语句.go" />
         <item itemvalue="Go Build.go build 流程控制.选择结构.go" />
-        <item itemvalue="Go Build.go build 运算符.go" />
         <item itemvalue="Go Build.go build 类型转换.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="779" y="203" width="1121" height="911" extended-state="0" />
+    <frame x="867" y="149" width="1121" height="911" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16991644" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17270195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -265,7 +283,9 @@
     <MESSAGE value="运算符基本类似，特殊的是指针的运算符，取值的运算符，还有，判断与或返回的都是bool" />
     <MESSAGE value="if的初步使用，条件不需要加括号，然后可以有初始化的第一个判断，需要用分号分割开后面的条件" />
     <MESSAGE value="if else 的使用，else后面不能跟着条件，if可以。else的好处就是判断的执行就是一次，如果不用else，而是多个if，就要多次判断" />
-    <option name="LAST_COMMIT_MESSAGE" value="if else 的使用，else后面不能跟着条件，if可以。else的好处就是判断的执行就是一次，如果不用else，而是多个if，就要多次判断" />
+    <MESSAGE value="嵌套 他、判断的次级分化，逻辑细化" />
+    <MESSAGE value="switch,throughAll 与 break ，默认值， 多个值放一起判断，区间判断" />
+    <option name="LAST_COMMIT_MESSAGE" value="switch,throughAll 与 break ，默认值， 多个值放一起判断，区间判断" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.ignore" />
@@ -311,37 +331,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/整形.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="e#14#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/浮点.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/类型转换.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/类型别名.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/运算符.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -370,17 +359,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/整形.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="e#14#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/浮点.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/字符串.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
+        <state relative-caret-position="945">
           <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/类型转换.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/类型别名.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/流程控制.选择结构.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        <state relative-caret-position="428">
+          <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/循环语句.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
         </state>
       </provider>
     </entry>
