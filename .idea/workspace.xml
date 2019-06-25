@@ -10,11 +10,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../go-study/数组.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+            <state relative-caret-position="353">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../go-study/数组逆置.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-329">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -64,12 +73,13 @@
         <option value="$PROJECT_DIR$/../go-study/second/test.go" />
         <option value="$PROJECT_DIR$/../go-study/不同级别的文件.go" />
         <option value="$PROJECT_DIR$/../go-study/数组.go" />
+        <option value="$PROJECT_DIR$/../go-study/数组逆置.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="873" />
-    <option name="y" value="23" />
+    <option name="x" value="839" />
+    <option name="y" value="197" />
     <option name="width" value="1121" />
     <option name="height" value="911" />
   </component>
@@ -119,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build 数组.go">
+  <component name="RunManager" selected="Go Build.go build 数组逆置.go">
     <configuration name="go build 同级多文件.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -138,11 +148,11 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 匿名函数.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 数组逆置.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/匿名函数.go" />
+      <filePath value="$PROJECT_DIR$/../go-study/数组逆置.go" />
       <package value="awesomeProject" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -230,16 +240,16 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 数组逆置.go" />
         <item itemvalue="Go Build.go build 数组.go" />
         <item itemvalue="Go Build.go build 不同级别的文件.go" />
         <item itemvalue="Go Build.go build 同级多文件.go" />
         <item itemvalue="Go Build.go build 递归函数.go" />
-        <item itemvalue="Go Build.go build 匿名函数.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="873" y="23" width="1121" height="911" extended-state="0" />
+    <frame x="1002" y="209" width="1121" height="911" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17548746" />
@@ -478,8 +488,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../go-study/数组.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+        <state relative-caret-position="353">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../go-study/数组逆置.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-329">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
     </entry>
